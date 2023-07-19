@@ -10,9 +10,17 @@
 <script>
     $(function(){
         $.ajax({
-            url : "/ajax/data/navi.json",
+            url : "/ajax/data/navi.json", //navi.JSON연결해주었음
             success : function(obj){
-                $("#gnb").html(obj.navi[0].name)
+
+                obj.navi.map( function(v, idx){
+                    $("#gnb").append(`<li><a href ="${obj.navgi[idx].http}">${obj.navi[idx].name}</li>`)
+                      
+
+                })
+               
+             
+                
                 console.log(obj)
             },
             error : function(request,status,error){

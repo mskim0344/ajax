@@ -13,12 +13,17 @@
         "http" : "http://www.google.com",
         "name" : "구글",
         "cls" : "aboutMe"
+    },
+    {
+        "http" : "http://www.google.com",
+        "name" : "구글",
+        "cls" : "aboutMe"
     }
 
     ],
     "interview" : [
         {
-            "subject" : "사전인터뷰 타이틀",
+            "subject" : "안녕하세요",
             "content" : "안녕하세요"
         },
         {
