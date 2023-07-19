@@ -1,0 +1,33 @@
+{
+    "navi" : [{
+        "http" : "http://www.naver.com",
+        "name" : "네이버",
+        "cls" : "aboutMe"
+    },
+    {
+        "http" : "http://www.daum.net",
+        "name" : "daum",
+        "cls" : "aboutMe"
+    },
+    {
+        "http" : "http://www.google.com",
+        "name" : "구글",
+        "cls" : "aboutMe"
+    }
+
+    ],
+    "interview" : [
+        {
+            "subject" : "사전인터뷰 타이틀",
+            "content" : "안녕하세요"
+        },
+        {
+            "subject" : "공부 잘 되시나여?",
+            "content" : "못해먹겠다"
+        },
+        {
+            "subject" : "이해는 되시나요..?",
+            "content" : "몰라먹겠다."
+        }
+    ]
+}
